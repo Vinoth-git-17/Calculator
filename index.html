@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="box">
+        <h1>CALCULATOR</h1>
+        <div class="box-container">
+            <input id="display" value="" type="text" placeholder="0" >
+        </div>
+        <div class="input">
+            <ul class="input-row">
+               <button onclick="allclear()"><li>AC</li></button> 
+               <button onclick="display('%')"><li>%</li></button> 
+               <button onclick="display('/')"><li>/</li></button> 
+               <button onclick="del()"><li>DEL</li></button> 
+
+                
+            </ul>
+            <ul class="input-row">
+                <button onclick="display('7')"><li>7</li></button> 
+                <button onclick="display('8')"><li>8</li></button> 
+                <button onclick="display('9')"><li>9</li></button> 
+                <button onclick="display('*')"><li>*</li></button> 
+                 
+             </ul>
+             <ul class="input-row">
+                <button onclick="display('4')"><li>4</li></button> 
+                <button onclick="display('5')"><li>5</li></button> 
+                <button onclick="display('6')"><li>6</li></button> 
+                <button onclick="display('-')"><li>-</li></button> 
+                 
+             </ul>
+             <ul class="input-row">
+                <button onclick="display('1')"><li>1</li></button> 
+                <button onclick="display('2')"><li>2</li></button> 
+                <button onclick="display('3')"><li>3</li></button> 
+                <button onclick="display('+')"><li>+</li></button> 
+                 
+             </ul>
+            <ul class="input-row">
+               <button onclick="display('.')"> <li>.</li> </button>
+               <button onclick="display('0')"><li>0</li></button>
+               <button onclick="calculate()" id="equal"><li>=</li></button>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js" >
+      
+    </script>
+</body>
+</html>
